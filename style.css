@@ -1,0 +1,105 @@
+.navbar-brand{
+    display: flex;
+    flex-direction: column;
+    background-image: url("images/logo.png");
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+}
+.navbar{
+    display: flex;
+}
+.head{
+    display: flex;
+    flex-direction: column;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    min-width: 430px;
+}
+.card{
+    margin-top: 10px;
+    height: 280px;
+    min-height: 100px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.instructions{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.book{
+    background-image: url("images/book.png");
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+    width: 450px;
+    margin: 10px;
+}
+.border-secondary{
+    width: 900px;
+    min-width: 500px;
+}
+.writer{
+    color: #1a3b79;
+    font-weight: bold;
+}
+.amount{
+    color: #8eb246;
+}
+p{
+    color: #223775;
+}
+.table-primary{
+    text-align: center;
+    width: 500px;
+    
+}
+.btn-group{
+    display: flex;
+    justify-content: space-between;
+}
+.btn-group > button{
+    display: flex;
+    justify-content: flex-end;
+}
+.count{
+    border: 1px solid gray;
+    width: 50px;
+}
+.button{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.count{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+}
+input{
+    width: 50px;
+    text-align: center;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+@media only screen and (max-width: 370px) {
+    .main {
+        display: flex;
+        flex-direction: column;
+
+    
+    }
+}
+
+
+
+/* write your CSS here */
